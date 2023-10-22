@@ -1,0 +1,10 @@
+mutation CreateQualification($input: QualificationInput!) {
+  createQualification(input: $input) {
+    errors {
+      ...RegularError
+    }
+    qualification {
+      ...RegularQualification
+    }
+  }
+}

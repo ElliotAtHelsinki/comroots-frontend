@@ -1,0 +1,5 @@
+query Avatars {
+  avatars {
+    ...RegularPhotoResponse
+  }
+}

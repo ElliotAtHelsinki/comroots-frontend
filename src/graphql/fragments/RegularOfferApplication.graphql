@@ -1,0 +1,6 @@
+fragment RegularOfferApplication on OfferApplication {
+  id
+  userId
+  offerId
+  status
+}

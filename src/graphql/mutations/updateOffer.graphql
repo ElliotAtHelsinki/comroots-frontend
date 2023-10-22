@@ -1,0 +1,5 @@
+mutation UpdateOffer($id: Int!, $input: OfferInputUpdate!) {
+  updateOffer(id: $id, input: $input) {
+    ...RegularOffer
+  }
+}

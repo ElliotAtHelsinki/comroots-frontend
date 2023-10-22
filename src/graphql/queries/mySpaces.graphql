@@ -1,0 +1,6 @@
+query MySpaces {
+  mySpaces {
+    avatarUrl
+    ...RegularSpace
+  }
+}

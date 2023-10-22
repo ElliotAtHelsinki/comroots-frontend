@@ -1,0 +1,5 @@
+query SpaceAvatars($spaceId: Int!) {
+  spaceAvatars(spaceId: $spaceId) {
+    ...RegularPhotoResponse
+  }
+}

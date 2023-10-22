@@ -1,0 +1,5 @@
+query SpaceCoverPhotos($spaceId: Int!) {
+  spaceCoverPhotos(spaceId: $spaceId) {
+    ...RegularPhotoResponse
+  }
+}

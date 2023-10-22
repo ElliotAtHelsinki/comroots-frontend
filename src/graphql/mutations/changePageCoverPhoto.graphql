@@ -1,0 +1,3 @@
+mutation ChangePageCoverPhoto($key: String!, $pageId: Int!) {
+  changePageCoverPhoto(key: $key, pageId: $pageId)
+}

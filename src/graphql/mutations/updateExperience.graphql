@@ -1,0 +1,10 @@
+mutation UpdateExperience($id: Int!, $input: ExperienceInput!) {
+  updateExperience(id: $id, input: $input) {
+    errors {
+      ...RegularError
+    }
+    experience {
+      ...RegularExperience
+    }
+  }
+}

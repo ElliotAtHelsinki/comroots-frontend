@@ -1,0 +1,3 @@
+mutation DeleteMessage($messageDocumentId: String!, $firestoreCollectionId: String!) {
+  deleteMessage(messageDocumentId: $messageDocumentId, firestoreCollectionId: $firestoreCollectionId)
+}

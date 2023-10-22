@@ -1,0 +1,5 @@
+mutation UploadSpaceAvatar($upload: Upload!, $spaceId: Int!) {
+  uploadSpaceAvatar(upload: $upload, spaceId: $spaceId) {
+    ...RegularFile
+  }
+}

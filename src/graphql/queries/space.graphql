@@ -1,0 +1,5 @@
+query Space($spaceName: String!) {
+  space(spaceName: $spaceName) {
+    ...RegularSpace   
+  }
+}

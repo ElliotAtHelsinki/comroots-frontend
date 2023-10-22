@@ -1,0 +1,3 @@
+mutation DeleteConversation($firestoreCollectionId: String!) {
+  deleteConversation(firestoreCollectionId: $firestoreCollectionId)
+}

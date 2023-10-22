@@ -1,0 +1,23 @@
+fragment RegularPost on Post {
+  id
+  createdAt
+  updatedAt
+  title
+  text
+  points
+  voteStatus
+  creatorType
+  tags {
+    id
+    name
+  }
+  creator {
+    ...RegularUser
+  }
+  pageCreator {
+    ...RegularPage
+  }
+  space {
+    ...RegularSpace
+  }
+}

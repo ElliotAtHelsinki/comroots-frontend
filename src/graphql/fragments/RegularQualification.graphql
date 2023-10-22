@@ -1,0 +1,12 @@
+fragment RegularQualification on Qualification { 
+  id
+  name
+  issuingOrganisation
+  issuanceDate 
+  expire
+  expirationDate
+  credentialID
+  credentialURL
+  photo
+  photoUrl
+}

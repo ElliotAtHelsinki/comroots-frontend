@@ -1,0 +1,5 @@
+query CoverPhotos {
+  coverPhotos {
+    ...RegularPhotoResponse
+  }
+}

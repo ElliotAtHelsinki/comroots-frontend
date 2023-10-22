@@ -1,0 +1,3 @@
+mutation ChangeSpaceCoverPhoto($key: String!, $spaceId: Int!) {
+  changeSpaceCoverPhoto(key: $key, spaceId: $spaceId)
+}

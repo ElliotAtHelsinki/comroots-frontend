@@ -1,0 +1,10 @@
+mutation CreateEducationItem($input: EducationItemInput!) {
+  createEducationItem(input: $input) {
+    errors {
+      ...RegularError
+    }
+    educationItem {
+      ...RegularEducationItem
+    }
+  }
+}

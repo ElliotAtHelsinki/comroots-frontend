@@ -1,0 +1,5 @@
+mutation Apply($offerId: Int!) {
+  apply(offerId: $offerId) {
+    ...RegularOfferApplication
+  }
+}

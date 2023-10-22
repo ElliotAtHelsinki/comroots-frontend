@@ -1,0 +1,3 @@
+mutation ChangeCoverPhoto($key: String!) {
+  changeCoverPhoto(key: $key)
+}

@@ -1,0 +1,5 @@
+mutation UploadSpaceCoverPhoto($upload: Upload!, $spaceId: Int!) {
+  uploadSpaceCoverPhoto(upload: $upload, spaceId: $spaceId) {
+    ...RegularFile
+  }
+}

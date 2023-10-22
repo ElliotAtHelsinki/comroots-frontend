@@ -1,0 +1,5 @@
+mutation UploadPageCoverPhoto($upload: Upload!, $pageId: Int!) {
+  uploadPageCoverPhoto(upload: $upload, pageId: $pageId) {
+    ...RegularFile
+  }
+}

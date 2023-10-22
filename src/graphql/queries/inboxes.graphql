@@ -1,0 +1,8 @@
+query Inboxes($firestoreCollectionIds: [String!]!) {
+  inboxes(firestoreCollectionIds: $firestoreCollectionIds) {
+    firestoreCollectionId
+    partner {
+      ...RegularUser
+    }
+  }
+}

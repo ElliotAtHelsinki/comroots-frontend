@@ -1,0 +1,3 @@
+mutation DeleteSpaceCoverPhoto($key: String!) {
+  deleteSpaceCoverPhoto(key: $key)
+}

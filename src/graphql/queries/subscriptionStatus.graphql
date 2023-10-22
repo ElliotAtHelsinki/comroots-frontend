@@ -1,0 +1,3 @@
+query SubscriptionStatus($spaceId: Int) {
+  subscriptionStatus(spaceId: $spaceId)
+}

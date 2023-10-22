@@ -1,0 +1,5 @@
+mutation CreateComment($postId: Int!, $text: String!, $pageId: Int) {
+  createComment(postId: $postId, text: $text, pageId: $pageId) {
+    ...RegularComment
+  }
+}

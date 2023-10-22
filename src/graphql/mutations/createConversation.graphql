@@ -1,0 +1,10 @@
+mutation CreateConversation($partnerUsername: String!) {
+  createConversation(partnerUsername: $partnerUsername) {
+    errors {
+      ...RegularError
+    }
+    conversation {
+      id
+    }
+  }
+}

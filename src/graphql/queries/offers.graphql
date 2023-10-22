@@ -1,0 +1,8 @@
+query Offers($limit: Int!, $cursor: String, $spaceId: Int, $pageId: Int, $userId: Int) {
+  offers(limit: $limit, cursor: $cursor, spaceId: $spaceId, pageId: $pageId, userId: $userId) {
+    hasMore
+    offers {
+      ...RegularOffer
+    }
+  }
+}

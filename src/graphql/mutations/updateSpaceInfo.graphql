@@ -1,0 +1,3 @@
+mutation UpdateSpaceInfo($id: Int!, $input: SpaceInfo!) {
+  updateSpaceInfo(id: $id, input: $input)
+}

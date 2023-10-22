@@ -1,0 +1,5 @@
+query AppliedOffers {
+  appliedOffers {
+    ...RegularOffer
+  }
+}

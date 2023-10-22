@@ -1,0 +1,10 @@
+mutation CreateOffer($input: OfferInputCreate!) {
+  createOffer(input: $input) {
+    errors {
+      ...RegularError
+    }
+    offer {
+      ...RegularOffer
+    }
+  }
+}

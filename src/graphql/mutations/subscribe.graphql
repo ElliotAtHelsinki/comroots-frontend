@@ -1,0 +1,3 @@
+mutation Subscribe($spaceId: Int!) {
+  subscribe(spaceId: $spaceId)
+}

@@ -1,0 +1,16 @@
+fragment RegularComment on Comment {
+  id
+  createdAt
+  updatedAt
+  text
+  creatorType
+  creator {
+    ...RegularUser
+  }
+  pageCreator {
+    ...RegularPage
+  }
+  points
+  voteStatus
+}
+  

@@ -1,0 +1,15 @@
+query Offer($id: Int!) {
+  offer(id: $id) {
+    applications {
+      id
+      userId
+      offerId
+      status
+      user {
+        avatarUrl
+        ...RegularUser
+      }
+    }
+    ...RegularOffer
+  }
+}

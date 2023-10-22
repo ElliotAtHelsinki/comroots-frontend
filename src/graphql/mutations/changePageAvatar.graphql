@@ -1,0 +1,3 @@
+mutation ChangePageAvatar($key: String!, $pageId: Int!) {
+  changePageAvatar(key: $key, pageId: $pageId)
+}

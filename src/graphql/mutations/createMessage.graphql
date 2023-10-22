@@ -1,0 +1,5 @@
+mutation CreateMessage($input: MessageInput!, $firestoreCollectionId: String!) {
+  createMessage(input: $input, firestoreCollectionId: $firestoreCollectionId) {
+    ...RegularMessage
+  }  
+}

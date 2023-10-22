@@ -1,0 +1,6 @@
+query MyPages {
+  myPages {
+    avatarUrl
+    ...RegularPage
+  }
+}

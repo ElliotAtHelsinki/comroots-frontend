@@ -1,0 +1,4 @@
+fragment RegularPhotoResponse on PhotoResponse { 
+  key
+  url 
+}

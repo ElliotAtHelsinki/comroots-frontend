@@ -1,0 +1,3 @@
+query GetSignedUrls($keys: [String!]!) {
+  getSignedUrls(keys: $keys)
+}

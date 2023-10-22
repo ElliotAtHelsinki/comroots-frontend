@@ -1,0 +1,6 @@
+fragment RegularFile on UploadedFileResponse {
+  filename
+  mimetype
+  encoding
+  url
+}

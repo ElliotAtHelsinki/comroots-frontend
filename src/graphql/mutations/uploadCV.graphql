@@ -1,0 +1,8 @@
+mutation UploadCV($upload: Upload!) {
+  uploadCV(upload: $upload) {
+    filename
+    mimetype
+    encoding
+    url
+  }
+}

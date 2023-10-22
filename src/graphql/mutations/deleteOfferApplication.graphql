@@ -1,0 +1,3 @@
+mutation DeleteOfferApplication($offerId: Int!) {
+  deleteOfferApplication(offerId: $offerId)
+}

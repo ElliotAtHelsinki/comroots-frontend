@@ -1,0 +1,5 @@
+mutation UploadCoverPhoto($upload: Upload!) {
+  uploadCoverPhoto(upload: $upload) {
+    ...RegularFile
+  }
+}

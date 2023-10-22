@@ -1,0 +1,18 @@
+fragment RegularPage on Page {
+  id
+  createdAt
+  updatedAt
+  avatar
+  coverPhoto
+  pageName
+  followStatus
+  ownerStatus
+  fullPageName
+  headline
+  address
+  about
+  followerNumber
+  owners {
+    ...RegularUser
+  }
+}

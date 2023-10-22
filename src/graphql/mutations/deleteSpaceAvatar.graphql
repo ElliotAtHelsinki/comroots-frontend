@@ -1,0 +1,3 @@
+mutation DeleteSpaceAvatar($key: String!) {
+  deleteSpaceAvatar(key: $key)
+}

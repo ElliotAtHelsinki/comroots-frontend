@@ -1,0 +1,10 @@
+mutation CreatePage($pageName: String!) {
+  createPage(pageName: $pageName) {
+    errors {
+      ...RegularError
+    }
+    page {
+      ...RegularPage
+    }
+  }
+}

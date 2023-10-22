@@ -1,0 +1,9 @@
+fragment RegularExperience on Experience {
+  id
+  title
+  workplace
+  startDate
+  endDate
+  photo
+  photoUrl
+}

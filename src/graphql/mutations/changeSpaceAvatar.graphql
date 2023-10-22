@@ -1,0 +1,3 @@
+mutation ChangeSpaceAvatar($key: String!, $spaceId: Int!) {
+  changeSpaceAvatar(key: $key, spaceId: $spaceId)
+}

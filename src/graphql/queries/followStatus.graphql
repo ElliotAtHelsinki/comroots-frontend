@@ -1,0 +1,3 @@
+query FollowStatus($pageId: Int!) {
+  followStatus(pageId: $pageId)
+}

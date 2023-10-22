@@ -1,0 +1,8 @@
+query CVS($userId: Int!) {
+  cvs(userId: $userId) {
+    id
+    filename
+    key
+    url
+  }
+}

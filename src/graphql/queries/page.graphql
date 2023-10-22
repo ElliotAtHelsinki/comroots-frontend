@@ -1,0 +1,6 @@
+query Page($pageName: String!) {
+  page(pageName: $pageName) {
+    avatarUrl
+    ...RegularPage
+  }
+}

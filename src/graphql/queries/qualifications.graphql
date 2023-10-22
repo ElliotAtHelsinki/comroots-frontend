@@ -1,0 +1,5 @@
+query Qualifications($userId: Int!) {
+  qualifications(userId: $userId) {
+    ...RegularQualification
+  }
+}

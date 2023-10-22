@@ -1,0 +1,10 @@
+mutation CreateExperience($input: ExperienceInput!) {
+  createExperience(input: $input) {
+    errors {
+      ...RegularError
+    }
+    experience {
+      ...RegularExperience
+    }
+  }
+}

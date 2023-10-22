@@ -1,0 +1,3 @@
+mutation UpdatePageInfo($id: Int!, $input: PageInfo!) {
+  updatePageInfo(id: $id, input: $input)
+}

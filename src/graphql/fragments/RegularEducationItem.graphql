@@ -1,0 +1,9 @@
+fragment RegularEducationItem on EducationItem {
+  id
+  school
+  status
+  startDate
+  endDate
+  photo
+  photoUrl
+}

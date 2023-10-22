@@ -1,0 +1,5 @@
+query PageAvatars($pageId: Int!) {
+  pageAvatars(pageId: $pageId) {
+    ...RegularPhotoResponse
+  }
+}

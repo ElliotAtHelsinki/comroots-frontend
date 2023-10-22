@@ -1,0 +1,10 @@
+mutation CreateSpace($spaceName: String!) {
+  createSpace(spaceName: $spaceName) {
+    errors {
+      ...RegularError
+    }
+    space {
+      ...RegularSpace
+    }
+  }
+}

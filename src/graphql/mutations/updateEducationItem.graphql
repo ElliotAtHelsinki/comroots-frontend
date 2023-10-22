@@ -1,0 +1,10 @@
+mutation UpdateEducationItem($id: Int!, $input: EducationItemInput!) {
+  updateEducationItem(id: $id, input: $input) {
+    errors {
+      ...RegularError
+    }
+    educationItem {
+      ...RegularEducationItem
+    }
+  }
+}

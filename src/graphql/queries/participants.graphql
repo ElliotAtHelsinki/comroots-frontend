@@ -1,0 +1,5 @@
+query Participants($firestoreCollectionId: String!) {
+  participants(firestoreCollectionId: $firestoreCollectionId) {
+    ...RegularUser
+  }
+}

@@ -1,0 +1,3 @@
+mutation DeleteQualification($id: Int!) {
+  deleteQualification(id: $id)
+}

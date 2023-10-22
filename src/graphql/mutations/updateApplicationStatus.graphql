@@ -1,0 +1,5 @@
+mutation UpdateApplicationStatus($status: String!, $id: Int!) {
+  updateApplicationStatus(status: $status, id: $id) {
+    ...RegularOfferApplication
+  }
+}

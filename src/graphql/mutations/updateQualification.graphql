@@ -1,0 +1,10 @@
+mutation UpdateQualification($id: Int!, $input: QualificationInput!) {
+  updateQualification(id: $id, input: $input) {
+    errors {
+      ...RegularError
+    }
+    qualification {
+      ...RegularQualification
+    }
+  }
+}

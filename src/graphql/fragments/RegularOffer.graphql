@@ -1,0 +1,29 @@
+fragment RegularOffer on Offer {
+  id
+  createdAt
+  updatedAt
+  title
+  workplace
+  address
+  recruiting
+  employmentType
+  salaryRange
+  department
+  requirements
+  benefits
+  description
+  applicantsNo
+  applicationStatus
+  creatorType
+  photo
+  photoUrl
+  creator {
+    ...RegularUser
+  }
+  pageCreator {
+    ...RegularPage
+  }
+  space {
+    ...RegularSpace
+  }
+}

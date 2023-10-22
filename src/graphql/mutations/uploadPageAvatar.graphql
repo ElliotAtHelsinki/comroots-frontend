@@ -1,0 +1,5 @@
+mutation UploadPageAvatar($upload: Upload!, $pageId: Int!) {
+  uploadPageAvatar(upload: $upload, pageId: $pageId) {
+    ...RegularFile
+  }
+}

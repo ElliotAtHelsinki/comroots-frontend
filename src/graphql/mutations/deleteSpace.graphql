@@ -1,0 +1,3 @@
+mutation DeleteSpace($id: Int!) {
+  deleteSpace(id: $id)
+}
