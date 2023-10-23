@@ -2,9 +2,6 @@
 
 # dependencies
 /node_modules
-.yarn
-/.pnp
-.pnp.js
 
 # testing
 /coverage
@@ -38,6 +35,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-
-.yarnrc.yml
-yarn.lock
