@@ -5,8 +5,8 @@ export const useCoordinates = () => {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(({ coords }) => {
       setCoordinates({
-        latitude: coords.latitude,
-        longitude: coords.longitude
+        latitude: coords?.latitude,
+        longitude: coords?.longitude
       })
     })
   }, [])

@@ -123,7 +123,7 @@ const Chat: NextPage<ChatProps> = () => {
               </Box>
             </Box>
           }
-          <Flex flexDir='column' minW='600px' w={!showLeftBar || !showRightBar ? 'full' : undefined} h='full'>
+          <Flex flexDir='column' minW='600px' w='full' h='full'>
             <Flex w='full' h='55px' minH='55px' borderBottomWidth='1.25px' borderColor='gray.300' position='sticky' align='center' pl={4} pr={4}>
               <NextLink passHref href='/u/[user]' as={`/u/${partner?.username}`}>
                 <Flex align='center' _hover={{ bgColor: 'gray.200' }} p='0.25rem 0.5rem 0.25rem 0.5rem' borderRadius='8px' cursor='pointer'>
@@ -177,7 +177,7 @@ const Chat: NextPage<ChatProps> = () => {
           </Flex>
           {
             showRightBar &&
-            <Flex ref={rightBarRef} flexDir='column' justify='center' align='center' minW='163.5px' w='340px' h='full' ml='auto' borderWidth='1.25px' borderColor='gray.300'>
+            <Flex ref={rightBarRef} flexDir='column' justify='center' align='center' minW='340px' h='full' ml='auto' borderWidth='1.25px' borderColor='gray.300'>
               <Avatar w='72px' h='72px' src={partner?.avatarUrl} mb={2} />
               <NextLink passHref href='/u/[user]' as={`/u/${partner?.username}`}>
                 <Link>
